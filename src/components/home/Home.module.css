@@ -1,0 +1,28 @@
+.container{
+    background-color: #d793d7;
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+
+}
+.welcome{
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid;
+    color: rgb(105, 102, 102);
+
+}
+
+.login, .signup, p{
+    display: flex;
+    justify-content: center;
+
+}
+

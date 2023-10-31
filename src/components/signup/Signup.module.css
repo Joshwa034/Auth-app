@@ -1,0 +1,71 @@
+.container {
+    height: 400px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, rgb(66, 8, 66), rgb(137, 94, 158));
+}
+
+.innerBox {
+    min-height: 100px;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0,0.3);
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+};
+
+
+
+.footer{
+    display: flex;
+    font-display: column;
+    gap: 10px;
+}
+
+.footer button{
+    outline: none;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: 1rem;
+    padding: 8px 15px;
+    width: 100%;
+
+}
+.footer button:disabled{
+    background-color: grey !important;
+}
+.footer button:hover{
+    background-color: rgb(157, 39, 157);
+}
+.footer p{
+    font-weight: 700;
+    color: #606060;
+    padding-top: 20px;
+}
+
+.footer p span a{
+    font-weight: bold;
+    color: purple;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    text-decoration: none
+    ;
+}
+.errmsg{
+    font-weight: bold;
+    font-style: 0.6rem;
+    color: rgb(247, 32, 32);
+    font-size: small;
+}
